@@ -1,10 +1,11 @@
 깃, 리눅스 명령어 기초
 
-폴더 내 파일 확인
-ls
-ls -a
+폴더 내 (전체) 파일 확인
+ls (-a)
 
 git init r
+
+config (이메일 유저명 등록)
 
 폴더 이동
 cd 폴더명
@@ -13,10 +14,17 @@ cd ..
 git status
 
 
-git add 파일명
+git add (.) 파일명
 
 git commit -m "메세지"
 
-git log
 
-cat 텍스트파일명
+git log   >> 버전 확인
+
+git checkout 버전숫자(7자리 가능)
+
+git checkout -    >> 최신버전
+
+cat 파일명   >> 파일 내 확인
+
+touch 파일명  >> 파일 생성
