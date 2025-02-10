@@ -1,0 +1,13 @@
+깃, 리눅스 명령어 기초
+
+폴더 내 파일 확인
+ls
+ls -a
+
+git init r
+
+폴더 이동
+cd 폴더명
+cd ..
+
+git status
