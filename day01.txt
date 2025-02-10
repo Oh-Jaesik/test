@@ -11,3 +11,8 @@ cd 폴더명
 cd ..
 
 git status
+
+git에 추가
+git add 파일명
+
+git commit -m "메세지"
